@@ -13,7 +13,6 @@ class Cart:
         self.cart = cart
 
     def add(self, product, quantity=1, override_quantity=False):
-        print(f"Product {product}")
         product_id = str(product.id)
 
         if product_id not in self.cart:
